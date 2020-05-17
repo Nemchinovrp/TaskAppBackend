@@ -23,6 +23,7 @@ import java.util.NoSuchElementException;
 // иначе пришлось бы выполнять лишнюю работу, использовать @ResponseBody для ответа, указывать тип отправки JSON
 
 // Названия методов могут быть любыми, главное не дублировать их имена и URL mapping
+@CrossOrigin
 @RestController
 @RequestMapping("/task") // базовый адрес
 public class TaskController {
